@@ -1,0 +1,23 @@
+Python 3.10.6
+------------------------
+
+PASOS PARA SU USO:
+
+1) Crear un entorno virtual
+	python -m venv envDeteccion
+
+2) Activar el entorno virtual
+	envDeteccion\Scripts\activate
+
+3) Instalar los requerimientos
+	pip install -r requirements.txt
+
+----------------------
+OTROS COMANDOS SI REQUIERE
+
+Ejecutar el comando en PowerSell si no levanta el entorno virtual y
+muestra un mensaje de: (Ejecutar scripts está deshabilitado en este sistema)
+
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+----------------------
